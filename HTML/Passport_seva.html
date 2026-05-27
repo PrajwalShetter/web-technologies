@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passport_seva</title>
+</head>
+<body>
+    <form action="#">
+        <label for="cpi">Register to apply at :</label>
+        <input type="radio" name="office" id="cpi">
+        <label for="cpi" >CPI/Dehli</label>
+        <input type="radio" name="office"  id="Passport">
+        <label for="Passport">Passport office</label>
+        <br><br>
+
+        <label for="passportOffice">Passport office :</label>
+        <select name="passportOffice" id="passportOffice" required>
+            <option value="" >--------------Select----------</option>
+            <option value="Hydrabhad">Hydrabhad</option>
+            <option value="Bangluru">Bangluru</option>
+            <option value="Mysore">Mysore</option>
+            <option value="Dehli">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <br>
+        <span>As per present residential address </span>
+        <br><br>
+
+        <label for="name">Given Name (Max 45 letters) :</label>
+        <input type="text" placeholder="Enter Your Name" maxlength="45" name="name" id="name" required>
+        <br><br>
+
+        <label for="surName">SurName (Max 45 letters):</label>
+        <input type="text" name="surName" id="SurName" maxlength="45" placeholder="Enter your surname" required>
+        <br><br>
+
+        <label for="DOB">DOB (DD/MM/yyyy) :</label>
+        <input type="date" id="DOB" required name="DOB">
+        <br><br>
+
+        <label for="email"> Email (Max 35 char) :</label>
+        <input type="email" id="email" required maxlength="35" placeholder="Email" name="email">
+        <br><br>
+
+        <label for="loginId">Do you want your login id <br>to be same as E-mail id :    </label>
+        <input type="radio" name="login" id="loginId">
+        <label for="loginId">Yes</label>
+        <input type="radio" name="login" id="loginId">
+        <label for="loginId">No</label>
+        <br><br>
+
+        <label for="login">login id :</label>
+        <input type="text" placeholder="login id" name="login" id="login" required >  <span><a href="">check availability</a></span>
+        <br><br>
+
+        <label for="password"> Password :</label>
+        <input type="password" name="password" id="password" required placeholder="password"> <span><a href="">password policy</a></span>
+        <br><br>
+
+        <label for="comfirmpassword">Comfirm Password :</label>
+        <input type="password" name="comfirmpassword" required id="comfirmpassword" placeholder="re-enter password">
+        <br><br>
+
+        <label for="hintQuestion">Hint Question :</label>
+        <select name="hintQuestion" id="hintQuestion" required>
+            <option value="">--------------Select----------</option>
+            <option value="Best Friend name">Best Friend name </option>
+            <option value="Your Primary school name ">Your Primary school name </option>
+            <option value="Your faverite number ">Your faverite number</option>
+        </select>
+        <br><br>
+
+        <label for="hintAnswer">Hint answer :</label>
+        <input type="text" name="hintAnswer" id="hintAnswer" required placeholder="Enter Your Answer" >
+        <br><br>
+
+        <label for="captcha">Enter the displayed characters :</label>
+        <img src="xworkz Logo.png" alt="captcha" width="160" height="80">
+        <br><br>
+
+    </form>
+</body>
+</html>
