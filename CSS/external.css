@@ -8,6 +8,21 @@ h1{
 }
 
 p{
-    color: aliceblue;
+    color: #fff;
     background-color: blue;
+}
+
+#firstpara{
+    color: chartreuse;
+    background-color: black;
+}
+
+#secondpara{
+    color: #f60404;
+    background-color: rgb(190, 255, 29);
+}
+
+.header1{
+    color: hotpink;
+    background-color: ivory;
 }
