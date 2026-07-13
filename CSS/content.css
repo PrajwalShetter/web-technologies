@@ -1,0 +1,11 @@
+#content{
+    text-align: center;
+    text-decoration:underline;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-display: block;
+    font-weight: 200;
+    font-style: italic;
+    font-optical-sizing: ;
+}
