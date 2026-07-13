@@ -1,0 +1,13 @@
+#border{
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-radius: 20%;
+    border-color: aqua;
+    border-style:dotted ;
+    border: 10px gray solid;
+    padding: 8px;
+    margin: 15px;
+    
+
+}
