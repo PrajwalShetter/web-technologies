@@ -1,0 +1,26 @@
+#container{
+
+    width: auto;
+    height: 150px;
+    border: 2px solid black ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap;
+    align-content: center; */
+    /* align-content: flex-end; */
+
+}
+
+.content{
+    display: inline-block;
+    border: 2px solid black;
+    height: 30px;
+    /* margin: 10px; */
+    width: 100px;
+    padding: 5px;
+
+}
