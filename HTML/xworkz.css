@@ -1,18 +1,41 @@
 #head{
     height: 80px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+img{
+    height: 80px;
+    width: 140px;
+    padding: 20px;
     
 }
 
+
+#nav{
+    margin-left: 60px;
+
+}
 a{
     text-decoration: none;
     color: white;
-    margin-left: 50px;
+    margin-left: 30px;
+    width: 20px;
+}
+#rigester{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(246, 137, 3,20);
+}
 
-    
+#navSocial{
+    margin-left: 60px;
 }
 
 i{
     color: white;
-    margin-left:20px ;
+    margin-left:30px ;
 }
