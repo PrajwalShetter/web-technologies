@@ -1,0 +1,52 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 3px solid;
+    display: inline-block;
+    background-color: cornflowerblue;
+}
+
+#static{
+    position: static;
+    top: 10px; /* cannot apply*/
+    bottom: 200px; /* cannot apply*/
+    margin-top: 10px; /* cannot apply*/
+    margin-left: 20px; /* cannot apply*/
+
+}
+
+#relative{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin-left: 20px;
+    margin-top: 50px;/* cannot apply*/
+    margin-bottom: 300px/* cannot apply*/;
+}
+
+/* it depends on ancister tag positions */
+#abslute{ 
+    position:absolute;
+    top: 0px;
+    /* left:30px; */
+    right: 30px;
+    margin-top: 40px;
+
+}
+
+#fixed{
+    position: fixed;
+    /* right: 50px; */
+    left:70px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+/* it mix of relative and fixed */
+#sticky{
+    position: sticky;
+    top: 40px;
+    margin-top: 80px; /*cannot apply*/
+    margin-left: 50px;
+}
+
