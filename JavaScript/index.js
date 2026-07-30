@@ -46,3 +46,24 @@ console.log(typeof obj);
 obj.name="suresh";
 console.log(obj.name);
 
+
+console.log(bottel); // hoisting 
+
+var bottel = "plastic";
+
+console.log(bottel);
+
+//let
+
+//console.log(school); // hoisting -- call it has temporal dead zone
+let school="Amity";
+school="christ";
+
+console.log(school);
+
+// const
+console.log(department); // hoisting -- call it has temporal dead zone
+const department = "MCA" ;
+
+console.log(department);
+
